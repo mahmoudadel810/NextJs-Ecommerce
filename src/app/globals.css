@@ -1,0 +1,107 @@
+/** @format */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: "Geist", "Geist Mono", Arial, sans-serif;
+  background: #f8fafc;
+}
+
+body {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1 0 auto;
+  padding: 0 0 2rem 0;
+}
+
+footer {
+  flex-shrink: 0;
+  width: 100%;
+  color: #fff;
+  box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.05);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Geist", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.user-card-hover:hover {
+  transform: translateY(-4px) scale(1.03);
+  box-shadow: 0 8px 32px rgba(99, 102, 241, 0.15);
+}
+
+.card-hover {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card-hover:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.nav-link {
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #dc3545 !important;
+}
+
+.carousel-item {
+  background-color: #f8f9fa;
+}
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-danger:hover {
+  background-color: #c82333;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+/* Product image zoom effect */
+.product-card-img {
+  transition: transform 0.5s;
+  overflow: hidden;
+}
+
+.product-card-img:hover img {
+  transform: scale(1.05);
+}
+
+/* Search dropdown styling */
+.search-item {
+  transition: background-color 0.2s;
+}
+
+.search-item:hover {
+  background-color: #f8f9fa;
+}
+
+/* Improve z-index for search dropdown */
+.z-3 {
+  z-index: 1030;
+}
