@@ -33,21 +33,7 @@ A modern, responsive e-commerce platform built with Next.js and React Bootstrap.
 ## Project Structure
 
 
-src/
-├── app/                  # App Router pages and layouts
-│   ├── cart/             # Shopping cart page
-│   ├── login/            # User authentication pages
-│   ├── products/         # Product listing and details
-│   ├── signup/           # User registration
-│   ├── globals.css       # Global styles
-│   ├── layout.js         # Root layout with common elements
-│   └── page.js           # Homepage
-├── components/           # Reusable UI components
-│   ├── Footer.js         # Site footer
-│   └── Navigation.js     # Navigation bar with search
-├── context/              # React Context providers
-│   └── CartContext.js    # Shopping cart state management
-```
+
 
 ## Getting Started
 
