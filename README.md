@@ -4,9 +4,10 @@
 
 A modern, responsive e-commerce platform built with Next.js and React Bootstrap. This project demonstrates advanced frontend development techniques including routing, state management, API integration, and responsive design.
 
-![ShopNow E-Commerce](https://i.imgur.com/XYZ123.png)
+![ShopNow E-Commerce](https://github.com/user-attachments/assets/27b087b8-1441-4457-9771-92532fbe4ac0)
 
 ## Features
+
 
 - **Modern UI/UX**: Clean, responsive design with intuitive navigation
 - **Product Catalog**: Display products from external API with filtering options
